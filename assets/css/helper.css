@@ -1,0 +1,41 @@
+.d-flex{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+ .img-fluid, .gallary-img img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: auto;
+ }
+
+
+.post-content h2:hover,
+.post-content h2:focus,
+.post-content h2:active{
+   color: #f6d200;
+   background-color: #000;
+   
+}
+
+.post-content h2{
+    color: #000;
+    background-color: yellowgreen;
+    text-align: center;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.section-header{
+    color: #000;
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px 0;
+}
